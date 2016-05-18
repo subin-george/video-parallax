@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: normal 14px/20px Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+h3{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+p{
+	margin-bottom: 15px;
+}
+.videobx{
+  position: relative;
+}
+.videobx-cont{
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	width: 960px;
+	margin-left: -480px;
+	z-index: 100;
+	color: #fff;
+}
+.content{
+	width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
